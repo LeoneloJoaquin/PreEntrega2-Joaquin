@@ -1,0 +1,144 @@
+.caja_cabeza {
+    background-color: black;
+    color: white;
+    width: 100vh;
+    height: fit-content;
+    /* display: grid;
+    grid-template-columns: 550px repeat(5, 274px);
+    grid-template-rows: 300px;
+    font-size: 36px; */
+    align-content: center;
+}
+
+.pag-actual {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 50px;
+    align-content: center;
+}
+
+.imagen_descripcion {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+}
+
+.caja_pie {
+    background-color: black;
+    color: white;
+    width: 100vh;
+    height: fit-content;
+    /* display: grid;
+    grid-template-columns: 550px 1370px;
+    grid-template-rows: 300px;
+    font-size: 20px; */
+    align-content: center;
+}
+
+.parrafo_legal {
+    font-size: 20px;
+    align-content: center;
+}
+
+.texto_principal {
+    font-size:24px;
+}
+
+@media (max-width: 480px) {
+    .caja_cabeza {
+        width: fit-content;
+    }
+    .caja_pie {
+        width: fit-content;
+        padding-bottom: 1rem;
+    }
+    .saint-seiya_logo {
+        width: 60vh;
+        height: 30vh;
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        margin-left: 1vh;
+    }
+    .reproductor {
+        width: 60vh;
+        height: 30vh;
+    }
+    .reproductor-contacto {
+        width: 60vh;
+        height: 30vh;
+    }
+    .selector {
+        width: 60vh;
+        margin-bottom: 3vh;
+        font-size: 12px;
+    }
+    .sector-quejas {
+        font-size: 13px;
+    }
+    .mapa-gps {
+        width: 60vh;
+        height: 60vh;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    .texto_principal {
+        font-size: 12px;
+
+    }
+    main section img {
+        width: 60vh;
+        height: 30vh;
+        margin-bottom: 1vh;
+    }
+    .parrafo_legal {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .saint-seiya_logo {
+        width: 419px;
+        height: 211px;
+        margin-bottom: 1vh;
+    }
+    .caja_cabeza {
+        width: 100%
+    }
+    main section img {
+        width: 30vh;
+        height: 30vh;
+        margin-bottom: 3vh;
+    }
+    .caja_pie {
+        width: 100%;
+    }
+    .reproductor {
+        width: 60vh;
+        height: 30vh;
+    }
+    .selector {
+        width: 60vh;
+        margin-bottom: 5vh;
+    }
+    .texto_alineado {
+        margin-top: 9vh;
+    }
+    .mapa-gps {
+        width: 85vh;
+        height: 65vh;
+    }
+    .reproductor-contacto {
+        width: 175vh;
+        height: 80vh;
+    }
+}
