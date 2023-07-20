@@ -1,0 +1,200 @@
+.imagen_descripcion {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-content: center;
+}
+
+.texto_principal {
+  font-size: 24px;
+}
+
+@media (max-width: 480px) {
+  .texto_principal {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .texto_alineado {
+    margin-top: 9vh;
+  }
+}
+@media (max-width: 480px) {
+  main section img {
+    width: 60vh;
+    height: 30vh;
+    margin-bottom: 1vh;
+  }
+}
+@media (min-width: 1200px) {
+  main section img {
+    width: 30vh;
+    height: 30vh;
+    margin-bottom: 3vh;
+  }
+}
+@media (max-width: 480px) {
+  .reproductor {
+    width: 60vh;
+    height: 30vh;
+  }
+  .selector {
+    width: 60vh;
+    margin-bottom: 3vh;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .reproductor {
+    width: 60vh;
+    height: 30vh;
+  }
+  .selector {
+    width: 60vh;
+    margin-bottom: 5vh;
+  }
+}
+@media (max-width: 480px) {
+  .reproductor {
+    width: 60vh;
+    height: 30vh;
+  }
+  .selector {
+    width: 60vh;
+    margin-bottom: 3vh;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .reproductor {
+    width: 60vh;
+    height: 30vh;
+  }
+  .selector {
+    width: 60vh;
+    margin-bottom: 5vh;
+  }
+}
+@media (max-width: 480px) {
+  .selector {
+    width: 60vh;
+    margin-bottom: 3vh;
+    font-size: 12px;
+  }
+  .reproductor-contacto {
+    width: 60vh;
+    height: 30vh;
+  }
+  .sector-quejas {
+    font-size: 13px;
+  }
+  .mapa-gps {
+    width: 60vh;
+    height: 60vh;
+  }
+}
+@media (min-width: 1200px) {
+  .selector {
+    width: 60vh;
+    margin-bottom: 5vh;
+  }
+  .mapa-gps {
+    width: 85vh;
+    height: 65vh;
+  }
+  .reproductor-contacto {
+    width: 175vh;
+    height: 80vh;
+  }
+}
+@media (max-width: 480px) {
+  main section img {
+    width: 60vh;
+    height: 30vh;
+    margin-bottom: 1vh;
+  }
+}
+@media (min-width: 1200px) {
+  main section img {
+    width: 30vh;
+    height: 30vh;
+    margin-bottom: 3vh;
+  }
+}
+.caja_cabeza {
+  background-color: black;
+  color: white;
+  width: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-content: center;
+}
+
+.pag-actual {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  margin: 50px;
+  align-content: center;
+}
+
+@media (max-width: 480px) {
+  .caja_cabeza {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .saint-seiya_logo {
+    width: 60vh;
+    height: 30vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    margin-left: 1vh;
+  }
+}
+@media (min-width: 1200px) {
+  .caja_cabeza {
+    width: 100%;
+  }
+  .saint-seiya_logo {
+    width: 419px;
+    height: 211px;
+    margin-bottom: 1vh;
+  }
+}
+.caja_pie {
+  background-color: black;
+  color: white;
+  width: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-content: center;
+}
+
+.parrafo_legal {
+  font-size: 20px;
+  align-content: center;
+}
+
+@media (max-width: 480px) {
+  .saint-seiya_logo {
+    width: 60vh;
+    height: 30vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    margin-left: 1vh;
+  }
+}
+@media (min-width: 1200px) {
+  .saint-seiya_logo {
+    width: 419px;
+    height: 211px;
+    margin-bottom: 1vh;
+  }
+}/*# sourceMappingURL=main.css.map */

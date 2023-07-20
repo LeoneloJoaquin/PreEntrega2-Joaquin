@@ -1,0 +1,43 @@
+.caja_cabeza {
+    background-color: black;
+    color: white;
+    width: 100vh;
+    height: fit-content;
+    align-content: center;
+}
+
+.pag-actual {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 50px;
+    align-content: center;
+}
+
+@media (max-width: $MQ-Cellphone) {
+    .caja_cabeza {
+        width: fit-content;
+    }
+    .saint-seiya_logo {
+        @include ventana(60vh, 30vh);
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        margin-left: 1vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caja_cabeza {
+        width: 100%
+    }
+    .saint-seiya_logo {
+        @include ventana(419px, 211px);
+        margin-bottom: 1vh;
+    }
+}

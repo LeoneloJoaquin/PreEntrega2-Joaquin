@@ -1,0 +1,29 @@
+@media (max-width: $MQ-Cellphone) {
+    .selector {
+        width: 60vh;
+        margin-bottom: 3vh;
+        font-size: 12px;
+    }
+    .reproductor-contacto {
+        @include ventana(60vh, 30vh);
+    }
+    .sector-quejas {
+        font-size: 13px;
+    }
+    .mapa-gps {
+        @include ventana(60vh, 60vh);
+    }
+}
+
+@media (min-width: 1200px) {
+    .selector {
+        width: 60vh;
+        margin-bottom: 5vh;
+    }
+    .mapa-gps {
+        @include ventana(85vh, 65vh);
+    }
+    .reproductor-contacto {
+        @include ventana(175vh, 80vh);
+    }
+}

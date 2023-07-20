@@ -1,0 +1,31 @@
+$MQ-Cellphone: 480px;
+
+@mixin ventana($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.imagen_descripcion {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+}
+
+.texto_principal {
+    font-size:24px;
+}
+
+@media (max-width: $MQ-Cellphone) {
+    .texto_principal {
+        font-size: 12px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .texto_alineado {
+        margin-top: 9vh;
+    }
+}

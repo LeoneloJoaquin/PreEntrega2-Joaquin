@@ -3,10 +3,6 @@
     color: white;
     width: 100vh;
     height: fit-content;
-    /* display: grid;
-    grid-template-columns: 550px repeat(5, 274px);
-    grid-template-rows: 300px;
-    font-size: 36px; */
     align-content: center;
 }
 
@@ -37,10 +33,6 @@ h1 {
     color: white;
     width: 100vh;
     height: fit-content;
-    /* display: grid;
-    grid-template-columns: 550px 1370px;
-    grid-template-rows: 300px;
-    font-size: 20px; */
     align-content: center;
 }
 

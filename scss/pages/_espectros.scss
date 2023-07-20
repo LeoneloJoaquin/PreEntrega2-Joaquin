@@ -1,0 +1,20 @@
+@media (max-width: $MQ-Cellphone) {
+    .reproductor {
+        @include ventana(60vh, 30vh);
+    }
+    .selector {
+        width: 60vh;
+        margin-bottom: 3vh;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .reproductor {
+        @include ventana(60vh, 30vh);
+    }
+    .selector {
+        width: 60vh;
+        margin-bottom: 5vh;
+    }
+}

@@ -1,0 +1,13 @@
+@media (max-width: $MQ-Cellphone) {
+    main section img {
+        @include ventana(60vh, 30vh);
+        margin-bottom: 1vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    main section img {
+        @include ventana(30vh, 30vh);
+        margin-bottom: 3vh;
+    }
+}

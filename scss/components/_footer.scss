@@ -1,0 +1,28 @@
+.caja_pie {
+    background-color: black;
+    color: white;
+    width: 100vh;
+    height: fit-content;
+    align-content: center;
+}
+
+.parrafo_legal {
+    font-size: 20px;
+    align-content: center;
+}
+
+@media (max-width: $MQ-Cellphone) {
+    .saint-seiya_logo {
+        @include ventana(60vh, 30vh);
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        margin-left: 1vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .saint-seiya_logo {
+        @include ventana(419px, 211px);
+        margin-bottom: 1vh;
+    }
+}
